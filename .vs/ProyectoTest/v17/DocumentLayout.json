@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|c:\\users\\pc1\\documents\\semestre v\\lenguaje de programacion\\026_sistemacarritocompras\\utilidad\\sql server\\003_insertar datos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|solutionrelative:utilidad\\sql server\\003_insertar datos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\utilidad\\sql server\\002_procedimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|solutionrelative:utilidad\\sql server\\002_procedimientos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\utilidad\\sql server\\001_creacion base y tablas.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|solutionrelative:utilidad\\sql server\\001_creacion base y tablas.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\views\\tienda\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\tienda\\carrito.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\views\\tienda\\compras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\tienda\\compras.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\utilidad\\sql server\\004_insertar ubigeo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|solutionrelative:utilidad\\sql server\\004_insertar ubigeo.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\tareas.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\tareas.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\proyectotest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|c:\\users\\pc1\\documents\\semestre v\\lenguaje de programacion\\026_sistemacarritocompras\\utilidad\\sql server\\003_insertar datos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{2C4FBB63-74DC-4B6E-8DE5-F6E52240E010}|Utilidad\\Utilidad.csproj|solutionrelative:utilidad\\sql server\\003_insertar datos.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T15:31:52.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "003_INSERTAR DATOS.sql ",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\003_INSERTAR DATOS.sql",
+              "RelativeDocumentMoniker": "Utilidad\\SQL Server\\003_INSERTAR DATOS.sql",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\003_INSERTAR DATOS.sql",
+              "RelativeToolTip": "Utilidad\\SQL Server\\003_INSERTAR DATOS.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-27T14:41:44.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Carrito.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Tienda\\Carrito.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\Tienda\\Carrito.cshtml",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Tienda\\Carrito.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\Tienda\\Carrito.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:23:46.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Compras.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Tienda\\Compras.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\Tienda\\Compras.cshtml",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Tienda\\Compras.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\Tienda\\Compras.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:20:25.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:20:19.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TiendaController.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Controllers\\TiendaController.cs",
+              "RelativeDocumentMoniker": "ProyectoTest\\Controllers\\TiendaController.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Controllers\\TiendaController.cs",
+              "RelativeToolTip": "ProyectoTest\\Controllers\\TiendaController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAuwFYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:07:12.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T00:18:28.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "002_PROCEDIMIENTOS.sql ",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\002_PROCEDIMIENTOS.sql",
+              "RelativeDocumentMoniker": "Utilidad\\SQL Server\\002_PROCEDIMIENTOS.sql",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\002_PROCEDIMIENTOS.sql",
+              "RelativeToolTip": "Utilidad\\SQL Server\\002_PROCEDIMIENTOS.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-24T00:16:48.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "001_CREACION BASE Y TABLAS.sql ",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\001_CREACION BASE Y TABLAS.sql",
+              "RelativeDocumentMoniker": "Utilidad\\SQL Server\\001_CREACION BASE Y TABLAS.sql",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\001_CREACION BASE Y TABLAS.sql",
+              "RelativeToolTip": "Utilidad\\SQL Server\\001_CREACION BASE Y TABLAS.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-24T00:12:18.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ProyectoTest\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Global.asax.cs",
+              "RelativeToolTip": "ProyectoTest\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:11:46.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\packages.config",
+              "RelativeDocumentMoniker": "ProyectoTest\\packages.config",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\packages.config",
+              "RelativeToolTip": "ProyectoTest\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-24T00:11:40.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Web.config",
+              "RelativeDocumentMoniker": "ProyectoTest\\Web.config",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Web.config",
+              "RelativeToolTip": "ProyectoTest\\Web.config",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-24T00:11:33.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ProyectoTest\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoTest\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAiwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T00:10:29.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "004_INSERTAR UBIGEO.sql ",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\004_INSERTAR UBIGEO.sql",
+              "RelativeDocumentMoniker": "Utilidad\\SQL Server\\004_INSERTAR UBIGEO.sql",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\Utilidad\\SQL Server\\004_INSERTAR UBIGEO.sql",
+              "RelativeToolTip": "Utilidad\\SQL Server\\004_INSERTAR UBIGEO.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-24T00:10:01.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tareas.txt",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Tareas.txt",
+              "RelativeDocumentMoniker": "ProyectoTest\\Tareas.txt",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\Semestre V\\Lenguaje de Programacion\\026_SistemaCarritoCompras\\ProyectoTest\\Tareas.txt",
+              "RelativeToolTip": "ProyectoTest\\Tareas.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-24T00:08:52.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

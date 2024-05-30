@@ -1,5 +1,5 @@
 GO
-USE DB_CARRITO
+USE DB_VENTAS
 
 GO
 create proc sp_obtenerCategoria

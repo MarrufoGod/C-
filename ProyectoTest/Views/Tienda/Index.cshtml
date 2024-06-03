@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout_Tienda.cshtml";
 }
@@ -8,7 +7,7 @@
     <div class="bg-secondary py-3">
         <div class="container my-3">
             <div class="text-center text-white">
-                <h1 class="display-4 fw-bolder">Compra con estilo </h1>
+                <h1 class="display-4 fw-bolder">Compra con estilo</h1>
                 <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
             </div>
         </div>
@@ -17,11 +16,10 @@
     <div class="py-2">
         <div class="container px-2 px-lg-2 mt-5">
             <div id="catalogo-productos" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-
+                <!-- Aquí se cargarán los productos -->
             </div>
         </div>
     </div>
-
 </div>
 
 <!-- Modal -->
@@ -33,21 +31,101 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <div class="row row-categoria">
-                </div>
-
-            </div>
-            <div class="modal-footer">
-               
+                <div class="row row-categoria"></div>
             </div>
         </div>
     </div>
 </div>
+<div id="chatIcon" style="position: fixed; bottom: 20px; right: 20px;">
+    <i class="fas fa-comment-alt"></i>
+</div>
 
-@section scripts{
 
+<!-- Icono para abrir el chatbot -->
+<div id="chatIcon" class="chat-icon">
+    <i class="fas fa-comment-alt"></i>
+</div>
+
+
+<!-- Formulario para enviar mensajes al chatbot -->
+<div class="chatbot-container">
+    <form id="chatForm">
+        <div class="input-group">
+            <input type="text" id="messageInput" class="form-control" placeholder="Escribe tu mensaje..." />
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-paper-plane"></i> Enviar
+            </button>
+        </div>
+    </form>
+    <!-- Contenedor para mostrar la respuesta del chatbot -->
+    <div id="chatResponse" class="response-container"></div>
+</div>
+
+<style>
+    .chatbot-container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 350px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #3461eb;
+        padding: 15px;
+        font-family: Arial, sans-serif;
+    }
+
+        .chatbot-container .input-group {
+            display: flex;
+        }
+
+        .chatbot-container input[type="text"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            margin-bottom: 0;
+            font-size: 16px;
+            flex: 1;
+        }
+
+        .chatbot-container button[type="submit"] {
+            padding: 10px;
+            border: none;
+            background-color: #3461eb;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+            .chatbot-container button[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+            .chatbot-container button[type="submit"] i {
+                margin-right: 5px;
+            }
+
+    .response-container {
+        margin-top: 10px;
+        background-color: #3461eb;
+        padding: 10px;
+        border-radius: 5px;
+        min-height: 50px;
+        font-size: 16px;
+        color: #fcd703; /* Color del texto de respuesta */
+    }
+
+    /* Estilos para el icono de robot en la respuesta */
+    .robot-icon {
+        margin-right: 10px;
+        color: #fcd703; /* Color del icono */
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+@section scripts {
     <script>
-
         $(".btn-ver-categoria").click(function () {
             jQuery.ajax({
                 url: '@Url.Action("ListarCategoria", "Tienda")',
@@ -60,12 +138,12 @@
                     $(".modal-body").LoadingOverlay("hide");
                     if (data.data != null) {
                         $("<div>").addClass("col-4").append(
-                            $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text("Ver Todos").attr({ "onclick":"listarProductos(0)"})
+                            $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text("Ver Todos").attr({ "onclick": "listarProductos(0)" })
                         ).appendTo(".row-categoria")
 
                         $.each(data.data, function (i, item) {
                             $("<div>").addClass("col-4").append(
-                                $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text(item.Descripcion).attr({ "onclick": "listarProductos("+ item.IdCategoria +")" })
+                                $("<button>").addClass("btn btn-outline-primary btn-categoria m-1 w-100").text(item.Descripcion).attr({ "onclick": "listarProductos(" + item.IdCategoria + ")" })
                             ).appendTo(".row-categoria")
                         });
                     }
@@ -94,12 +172,11 @@
             $('#exampleModal').modal('hide');
         });
 
-
         function listarProductos(_idcategoria) {
             jQuery.ajax({
                 url: '@Url.Action("ListarProducto", "Tienda")',
                 type: "POST",
-                data: JSON.stringify({ idcategoria: _idcategoria}),
+                data: JSON.stringify({ idcategoria: _idcategoria }),
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
@@ -107,33 +184,27 @@
 
                     $("#catalogo-productos").LoadingOverlay("hide");
                     if (data.data != null) {
-
                         $.each(data.data, function (i, item) {
-                            //catalogo-productos
                             $("<div>").addClass("col mb-5").append(
                                 $("<div>").addClass("card h-100").append(
                                     $("<img>").addClass("card-img-top").attr({ "src": "data:image/" + item.extension + ";base64," + item.base64 }),
-                                    //Product details
                                     $("<div>").addClass("card-body p-4").append(
                                         $("<div>").addClass("text-center").append(
                                             $("<h5>").addClass("fw-bolder").text(item.Nombre),
                                             "S/. " + item.Precio
                                         )
                                     ),
-                                    //Product actions
                                     $("<div>").addClass("card-footer p-4 pt-0 border-top-0 bg-transparent").append(
                                         $("<div>").addClass("d-grid d-md-grid gap-2 d-md-block align-items-center text-center").append(
                                             $("<button>").addClass("btn btn-outline-dark mt-auto btn-detalle").text("Ver Detalle").attr({ "data-elemento": JSON.stringify(item) }),
-                                           @{
-                                               if (((ProyectoTest.Models.Usuario)Session["Usuario"]).EsAdministrador == false) {
+                                            @{
+                                                if (((ProyectoTest.Models.Usuario)Session["Usuario"]).EsAdministrador == false) {
                                                     @:$("<button>").addClass("btn btn-outline-dark mt-auto btn-agregar-carrito").data("idproducto", item.IdProducto).text("Agregar al carrito")
-                                               }
-                                           }
-
+                                                }
+                                            }
                                         )
                                     )
                                 )
-
                             ).appendTo("#catalogo-productos");
                         });
                     }
@@ -147,8 +218,23 @@
             });
         }
 
+        // Script para manejar la interacción con el chatbot
+        $('#chatForm').submit(function (event) {
+            event.preventDefault();
+            var message = $('#messageInput').val();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ChatbotRequest", "Home")',
+                data: { message: message },
+                dataType: 'json',
+                success: function (response) {
+                    $('#chatResponse').html('<i class="fas fa-robot robot-icon"></i>' + response.Text);
+                    $('#messageInput').val(''); // Limpiar el campo de entrada después de enviar el mensaje
+                },
+                error: function () {
+                    alert('Error al enviar mensaje al chatbot.');
+                }
+            });
+        });
     </script>
-
-
-
 }
